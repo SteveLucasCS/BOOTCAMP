@@ -12,31 +12,64 @@ body {
 
 header {
   padding: 20px;
-  margin-bottom: 20px;
   color: #333;
   background: #ccc;
 }
 
 section {
+  width: 100%;
+  
 }
 
-#left {
+#left { background-color: #fc5858;
+  width: 33.3%;
+  float: left;
+  display: inline-block;
 }
 
 #middle {
+  background-color: #814bf4;
+  width: 33.3%;
+
+  margin: 0;
+  display: inline-block;
+  
 }
 
 #right {
+  background-color: #4bf4a0;
+  width: 33.3%;
+  float: right;
+  margin: 0;
+  display: inline-block;
 }
 
 #full {
+  background-color: #ffae00;
+  width: 100%;
+  height: 400px;
 }
 
 #division {
+  height: 100%;
+  width: 70%;
+  display: inline-block;
+  
 }
 
 aside {
+  width: 25%;
+  border: solid black 0.1em;
+  float: right;
+  height: 100%;
+  display: inline-block;
+  font-size: 0.8em;
 }
 
 footer {
+  background-color: #00fff6;
+  margin: 0;
+  padding: 0.5em;
 }
+
+h4 { font-size: 1em;}
