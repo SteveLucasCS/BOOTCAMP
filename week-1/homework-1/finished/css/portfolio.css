@@ -1,0 +1,23 @@
+.flex-row {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+  height: 250px;
+}
+.card {
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  
+}
+
+
+img {
+  height: 187px;
+  width: auto;
+  max-width: 100%;
+}
